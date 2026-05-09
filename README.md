@@ -42,8 +42,37 @@
 <img width="24%" alt="android-teamchat" src="https://github.com/user-attachments/assets/f225cb69-b3e9-44cd-916f-0a036042e05d" />
 
 ## 기술 스택
+- Swift
+- SwiftUI
+- MVVM Architecture
+- Swift Concurrency (async/await)
+- URLSession
+- REST API
+- StreamChatSwiftUI
+- KeychainAccess
+- CoreLocation
+- PhotosUI / PHPicker
+- Mantis
+- SwiftUI-Introspect
 
 ## 구조
-- MVVM 기반 구조
-- ViewModel을 통한 화면 상태 및 비즈니스 로직 관리
-- API 모듈을 기능별로 분리하여 네트워크 요청 관리
+MVVM 패턴을 기반으로 프로젝트를 구성하였으며, 
+화면 UI, 상태 관리, 데이터 모델, 네트워크 통신 로직을 역할별로 분리했습니다.
+
+- View 
+SwiftUI 기반 화면 구성 및 사용자 인터랙션 처리
+
+- ViewModel 
+화면 상태 관리, 비즈니스 로직 처리, View와 API 레이어 간 데이터 흐름 관리
+
+- Entities 
+API 요청/응답 및 앱 내부에서 사용하는 데이터 모델 정의
+
+- Network 
+로그인, 회원가입, 게시물, 프로필, 팔로우, 위치, 검색 등 기능별 API 요청 처리
+
+- Utils 
+위치 관리, 이미지 선택, WebView, ShareSheet, StreamChat 커스텀 UI 등 공통 유틸리티 관리
+
+- Components 
+여러 화면에서 재사용되는 공통 UI 컴포넌트 관리
