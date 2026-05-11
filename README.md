@@ -36,10 +36,10 @@
   - 링크를 통한 앱 내 특정 게시물 상세 페이지 진입
 
 ## 스크린샷
-<img width="24%" alt="android-post" src="https://github.com/user-attachments/assets/a641bbc0-4604-44c9-b39d-328ce1f116ec" />
-<img width="24%" alt="android-userprofile" src="https://github.com/user-attachments/assets/4bd74552-ac6d-4251-aa7b-352c3ee5c772" />
-<img width="24%" alt="android-teamprofile" src="https://github.com/user-attachments/assets/21fc943d-5d62-427b-9128-3c29ba9b75fb" />
-<img width="24%" alt="android-teamchat" src="https://github.com/user-attachments/assets/f225cb69-b3e9-44cd-916f-0a036042e05d" />
+<img width="24%" alt="11promax-post" src="https://github.com/user-attachments/assets/5aead39a-12d4-49e7-b815-025d70214ab5" />
+<img width="24%" alt="11promax-userprofile" src="https://github.com/user-attachments/assets/d5fd2953-d108-4916-be46-1c590cc8de65" />
+<img width="24%" alt="11promax-teamprofile" src="https://github.com/user-attachments/assets/71918a06-1782-4540-9376-72abb1804854" />
+<img width="24%" alt="11promax-teamchat" src="https://github.com/user-attachments/assets/927e2cae-10b6-4c5c-a61c-669485315964" />
 
 ## 기술 스택
 - Swift
