@@ -70,9 +70,9 @@ MVVM 패턴을 기반으로 프로젝트를 구성하였으며,
 
 - Components - 여러 화면에서 재사용되는 공통 UI 컴포넌트 관리
 
-## 기술적 고민
-### 추천 수 동시성 처리
-여러 사용자가 동시에 제품을 추천/취소할 수 있기 때문에 DynamoDB ObjectMapper 저장 방식 대신 low-level updateItem을 사용했습니다. if_not_exists와 conditionExpression을 활용해 추천 수를 원자적으로 증가/감소시키고, 0 미만으로 내려가지 않도록 방어했습니다.
-
-### 사용자별 기록 저장 구조
-배변 기록은 userId + date 복합 키로 저장하여 사용자별 날짜 기반 조회가 가능하도록 설계했습니다.
+## 문제 해결
+- 위치 권한 상태별 UX 처리
+- 미디어 업로드 multipart 구현
+- 토큰 만료 시 refresh 처리
+- StreamChat UI 커스터마이징
+- 딥링크로 특정 게시물 진입 처리
