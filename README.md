@@ -69,10 +69,3 @@ MVVM 패턴을 기반으로 프로젝트를 구성하였으며,
 - Utils - 위치 관리, 이미지 선택, WebView, ShareSheet, StreamChat 커스텀 UI 등 공통 유틸리티 관리
 
 - Components - 여러 화면에서 재사용되는 공통 UI 컴포넌트 관리
-
-## 문제 해결
-- 위치 권한 상태별 UX 처리
-- 미디어 업로드 multipart 구현
-- 토큰 만료 시 refresh 처리
-- StreamChat UI 커스터마이징
-- 딥링크로 특정 게시물 진입 처리
