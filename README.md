@@ -46,7 +46,7 @@
 - SwiftUI
 - MVVM Architecture
 - Swift Concurrency (async/await)
-- URLSession기반 REST API
+- URLSession 기반 REST API
 - StreamChatSwiftUI
 - KeychainAccess
 - CoreLocation
