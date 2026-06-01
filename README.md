@@ -42,16 +42,13 @@
 <img width="24%" alt="11promax-teamchat" src="https://github.com/user-attachments/assets/927e2cae-10b6-4c5c-a61c-669485315964" />
 
 ## 기술 스택
-- Swift
-- SwiftUI
-- MVVM Architecture
-- Swift Concurrency (async/await)
-- URLSession 기반 REST API
-- StreamChatSwiftUI
-- KeychainAccess
-- CoreLocation
-- PhotosUI / PHPicker
-- Mantis
+- **Language & UI**: Swift, SwiftUI
+- **Architecture**: MVVM
+- **Networking**: Swift Concurrency (async/await), URLSession 기반 REST API
+- **Media**: PhotosUI / PHPicker, NukeUI, AVKit / AVPlayer, Mantis
+- **Chat**: StreamChatSwiftUI
+- **Storage & Security**: KeychainAccess
+- **Location**: CoreLocation
 
 ## 구조
 SwiftUI와 MVVM 패턴을 기반으로 프로젝트를 구성하였으며, 
