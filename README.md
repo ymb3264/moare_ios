@@ -44,10 +44,11 @@
 ## 기술 스택
 - **Language & UI**: Swift, SwiftUI
 - **Architecture**: MVVM
-- **Networking**: Swift Concurrency (async/await), URLSession 기반 REST API
+- **Concurrency**: Swift Concurrency (async/await)
+- **Networking**: URLSession 기반 REST API
 - **Media**: PhotosUI / PHPicker, NukeUI, AVKit / AVPlayer, Mantis
 - **Chat**: StreamChatSwiftUI
-- **Storage & Security**: KeychainAccess
+- **Storage & Security**: UserDefaults, KeychainAccess
 - **Location**: CoreLocation
 
 ## 구조
